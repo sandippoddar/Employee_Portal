@@ -1,0 +1,26 @@
+uuid: 72a32a7b-eeb3-4b60-a702-239bad6ebb9a
+langcode: en
+status: true
+dependencies:
+  module:
+    - copyright_footer
+  theme:
+    - olivero
+id: olivero_copyrightfooter
+theme: olivero
+region: footer_bottom
+weight: -10
+provider: null
+plugin: copyright_footer
+settings:
+  id: copyright_footer
+  label: 'Copyright Footer'
+  label_display: '0'
+  provider: copyright_footer
+  organization_name: 'Innoraft Solution Private Limited'
+  organization_url: 'https://www.innoraft.com/careers'
+  year_origin: 2022
+  year_to_date: null
+  version: ''
+  version_url: ''
+visibility: {  }

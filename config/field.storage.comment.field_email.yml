@@ -1,0 +1,21 @@
+uuid: b295f64d-264b-428d-906c-653cc8f809a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.field_email
+field_name: field_email
+entity_type: comment
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

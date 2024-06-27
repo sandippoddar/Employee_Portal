@@ -1,0 +1,28 @@
+uuid: cbe3870e-c2e5-47b5-acd4-3f8d1cadb783
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.customer_review.body
+    - node.type.customer_review
+  module:
+    - text
+    - user
+id: node.customer_review.default
+targetEntityType: node
+bundle: customer_review
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
