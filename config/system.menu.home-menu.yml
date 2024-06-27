@@ -1,0 +1,8 @@
+uuid: 2d6eea4a-cb90-4a3d-adb2-1a3783a8a8c8
+langcode: en
+status: true
+dependencies: {  }
+id: home-menu
+label: 'Home Menu'
+description: ''
+locked: false

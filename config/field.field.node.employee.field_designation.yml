@@ -1,0 +1,21 @@
+uuid: f565e4d3-b9cf-42b8-9aaa-adab588c7ba4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_designation
+    - node.type.employee
+  module:
+    - options
+id: node.employee.field_designation
+field_name: field_designation
+entity_type: node
+bundle: employee
+label: Designation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

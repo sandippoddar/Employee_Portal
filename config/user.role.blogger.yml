@@ -1,0 +1,38 @@
+uuid: 3bacab6a-358e-4288-bbd2-6712d120250f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+  module:
+    - admin_toolbar_search
+    - block_content
+    - devel
+    - devel_generate
+    - field_ui
+    - node
+    - system
+    - toolbar
+    - views_ui
+id: blogger
+label: Blogger
+weight: 4
+is_admin: null
+permissions:
+  - 'access block library'
+  - 'access content overview'
+  - 'access devel information'
+  - 'access toolbar'
+  - 'administer devel_generate'
+  - 'administer node display'
+  - 'administer site configuration'
+  - 'administer views'
+  - 'create blog content'
+  - 'delete any blog content'
+  - 'delete blog revisions'
+  - 'delete own blog content'
+  - 'edit any blog content'
+  - 'edit own blog content'
+  - 'revert blog revisions'
+  - 'use admin toolbar search'
+  - 'view blog revisions'

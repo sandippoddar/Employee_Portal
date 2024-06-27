@@ -1,0 +1,19 @@
+uuid: 57e4575f-893d-4a92-8456-c2079b29c983
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_income
+    - node.type.employee
+id: node.employee.field_income
+field_name: field_income
+entity_type: node
+bundle: employee
+label: Income
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

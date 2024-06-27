@@ -1,0 +1,8 @@
+uuid: 94ae3f82-1057-4d82-a82f-c58241035786
+langcode: en
+status: true
+dependencies: {  }
+id: custom_comment
+label: 'Custom Comment'
+target_entity_type_id: node
+description: ''

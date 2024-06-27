@@ -1,0 +1,27 @@
+uuid: dc6b4d31-5551-4069-b364-bccee58fa697
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - olivero
+id: olivero_userlogin
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
